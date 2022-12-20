@@ -165,7 +165,7 @@ body p{
    display: grid;
   row-gap: 10px;
   grid-template-columns: 50% 50%;
-  grid-template-rows: 50% 50%;
+  grid-template-rows: 70% 30%;
   padding: rem;
   margin: 1rem;
 }
@@ -380,7 +380,7 @@ body p{
     .grid{
   row-gap: 10px;
   grid-template-columns: 80%;
-  grid-template-rows: 25% 25% 25% 25%;
+  grid-template-rows: 50% 10% 10% 30%;
 }
 
   }
