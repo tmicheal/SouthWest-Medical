@@ -166,10 +166,22 @@ body p{
   row-gap: 10px;
   grid-template-columns: 50% 50%;
   grid-template-rows: 70% 30%;
-  padding: rem;
+  padding: 1rem;
   margin: 1rem;
 }
-
+.grid2{
+   display: grid;
+  row-gap: 2Rem;
+  grid-template-columns: 30% 30% 30%;
+  grid-template-rows: 100%;
+  padding: 1rem;
+  margin: 1rem;
+}
+.g2{
+  padding: 1rem;
+  margin: 1rem;
+  background-color: rgba(204, 230, 255,.8);
+}
 /*Navbar*/
 .navbar {
     position:sticky;
@@ -298,8 +310,6 @@ body p{
     padding-left: 1rem;
 }
 
-
-
   .center{
     width: 100%;
     position: relative;
@@ -382,7 +392,10 @@ body p{
   grid-template-columns: 80%;
   grid-template-rows: 50% 10% 10% 30%;
 }
-
+.grid2{
+  grid-template-columns:80%;
+  grid-template-rows: 30% 30% 30%;
+}
   }
   @media only screen and (max-width: 950px) {
     .footer .col {
@@ -402,9 +415,6 @@ body p{
     }
     .about{
         width: 70%;
-    }
-    .thirdbox{
-     
     }
   }
 
